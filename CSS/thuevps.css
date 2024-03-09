@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header >.Logo > a > img {
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+}
+header {
+    width: 100%;
+    padding:0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #000000;
+}
+#menu {
+    display: flex;
+    list-style: none;
+}
+#menu .item {
+    margin: 0px 25px;
+}
+#menu .item > a {
+    text-decoration: none;
+    color:#f80a0a;
+    font-weight: bold;
+}
+#menu .item > a:hover {
+    background-color: lightblue;
+    color: red;
+    font-style: italic;
+}
+
+#acction {
+    display: flex;
+    justify-content: space-between;
+}
+#acction .item {
+    margin-left: 12px;
+}
+
+.thuevps {
+    text-align: center;
+    margin: 20px;
+}
+.md {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: #d9edf7;
+    margin: 50px;
+    border-radius: 2px;
+}
+.mota {
+    margin: 20px;
+}
+
+footer{
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 20px;
+    background-color: black;
+}
+footer>div.col1>h4{
+    color: chartreuse;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 20PX;
+}
+footer div{
+    width: 50%;
+    margin-left: 50px;
+}
+footer .col1 p{
+    padding: 0 10px;
+    color: white;
+}
+footer .col1 p,footer .col2 p {
+    justify-content: left;
+}
+.col2 ul{
+    padding: 5px 10px;
+}
+.col1 .c{
+    margin-top: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+.col1 .c span{
+    color: lime;
+    font-weight: bold;
+}
+.col2 h5{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+}
+.col2 ul li#a p {
+    
+    color: cornflowerblue;
+}
+.col2 .b p{
+    color: crimson;
+}
+.col2 li{
+    padding: 5px;
+}
